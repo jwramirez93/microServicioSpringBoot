@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jwramirezl.app.entity.Alumno;
+import com.example.demo.entity.Alumno;
 import com.jwramirezl.app.service.AlumnoService;
 
 @RestController

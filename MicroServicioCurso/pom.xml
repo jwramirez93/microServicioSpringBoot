@@ -23,6 +23,12 @@
 	
 		<dependency>
 			<groupId>com.example</groupId>
+			<artifactId>LibServicioAlumno</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.example</groupId>
 			<artifactId>MicroServicioCommon</artifactId>
 			<version>0.0.1</version>
 		</dependency>
