@@ -28,7 +28,7 @@
 		</dependency>
 	
 		<dependency>
-			<groupId>com.example</groupId>
+			<groupId>com.jwramirezl.app.common</groupId>
 			<artifactId>MicroServicioCommon</artifactId>
 			<version>0.0.1</version>
 		</dependency>
