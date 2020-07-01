@@ -4,10 +4,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-@Service
 public class CommonServiceImpl<E, R extends CrudRepository<E, Long>> implements CommonService<E> {
 	
 	@Autowired
@@ -27,8 +25,8 @@ public class CommonServiceImpl<E, R extends CrudRepository<E, Long>> implements 
 
 	@Override
 	@Transactional
-	public E save(E alumno) {
-		return repository.save(alumno);
+	public E save(E entity) {
+		return repository.save(entity);
 	}
 
 	@Override

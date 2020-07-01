@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jwramirezl.app.service.CommonService;
 
-@RestController
 public class CommonController<E, S extends CommonService<E>> {
 	
 	@Autowired
